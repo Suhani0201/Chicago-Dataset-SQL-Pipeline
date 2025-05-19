@@ -1,19 +1,31 @@
 # Chicago-Dataset-SQL-Pipeline
+
 🧩 Project Overview
+
 This project demonstrates a SQL-based data pipeline developed using SQLite, Pandas, and SQL magic commands in Jupyter Notebook, focusing on real-world datasets from Chicago crime reports, public schools, and census data. It showcases data ingestion, cleaning, normalization, and analysis to derive meaningful civic insights.
 
 🔍 Key Features
+
 ✅ ETL Pipeline: Ingests and transforms multiple datasets into a normalized SQLite schema.
+
 ✅ SQL-Based Analysis: Performs subqueries, joins, filtering, and aggregation to analyze:
+
 Crime statistics by community area
+
 School safety indicators
+
 Socioeconomic status correlations
+
 ✅ Pandas & %sql Integration: Combines SQL and Python for flexible data manipulation.
 
 🧩Tools & Technologies
+
 SQLite – Lightweight embedded SQL database
+
 Pandas – Python library for data manipulation
+
 Jupyter Notebook – Interactive data exploration
+
 IPython-SQL (%sql) – SQL execution inside notebooks
 
 ## Understanding the datasets:
@@ -49,15 +61,23 @@ A detailed description of this dataset and the original dataset can be obtained 
 [https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDB0201ENSkillsNetwork20127838-2021-01-01&cm_mmc=Email_Newsletter-\_-Developer_Ed%2BTech-\_-WW_WW-\_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-DB0201EN-SkillsNetwork-20127838&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ)
 
 🧪 Sample Insights
+
 Top 5 community areas with the highest crime rates
+
 Relationship between school safety scores and crime density
+
 Socioeconomic status impact on public safety
 
 🧠 Learnings
+
 Hands-on experience building end-to-end SQL pipelines in Python
+
 Practical integration of public datasets for urban data analysis
+
 Importance of clean database schema design in civic data projects
 
 📌 Future Scope
+
 Integrate Tableau/Power BI dashboards
+
 Add more datasets (transportation, health, housing)
